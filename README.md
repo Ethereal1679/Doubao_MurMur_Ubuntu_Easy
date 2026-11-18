@@ -13,9 +13,16 @@ flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flath
 flatpak install --user ./doubao-murmur.flatpak
 flatpak run com.doubao.Murmur
 ```
+
+或者直接运行一键安装脚本：
+
+```bash
+./install.sh
+```
+
 弹出这个界面登录：
 
-![alt text](/images/image.png)
+![豆包登录后的控制面板](images/murmur.png)
 
 打开应用，点击「登录豆包」。光标放到输入框，按一下右 `Alt` 开始说话，再按一下结束。按 `Ctrl+V` 粘贴文字。
 
@@ -25,6 +32,6 @@ flatpak run com.doubao.Murmur
 
 想用 PS5 手柄按键启停录音：在 Steam 桌面布局把手柄按键映射为右 `Alt`。不用 Steam，可安装 Input Remapper：`sudo apt install input-remapper`，打开软件，选择 PS5 手柄，将按键映射为 `KEY_RIGHTALT` 并应用。
 
-![alt text](/images/image-3.png)
+![Input Remapper 按键映射示例](images/keyboard_retargeting.png)
 
 
