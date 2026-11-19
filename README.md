@@ -53,5 +53,3 @@ sudo apt install xdotool
 参考自：[github-doubao-murmur](https://github.com/lilong7676/doubao-murmur?utm_source=chatgpt.com)
 
 `doubao-murmur.flatpak` [下载链接](https://github.com/lilong7676/doubao-murmur/releases)
-
-fork自github项目 [github-doubao-murmur](https://github.com/lilong7676/doubao-murmur?utm_source=chatgpt.com)
